@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.auth.RegistrationFragment">
+
+    <EditText
+        android:id="@+id/et_email_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="email"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/et_fio_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_email_register"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="ФИО"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_first_password_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_fio_register"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="пароль"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/et_second_password_register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_first_password_register"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="пароль"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_second_password_register"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Зарегистрироваться" />
+
+</RelativeLayout>

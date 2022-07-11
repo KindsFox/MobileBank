@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "153857332847",
+    "firebase_url": "https://mobilebank-9a3a6-default-rtdb.firebaseio.com",
+    "project_id": "mobilebank-9a3a6",
+    "storage_bucket": "mobilebank-9a3a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153857332847:android:d3550e6b49c24527ad9f9a",
+        "android_client_info": {
+          "package_name": "com.demo.courseworkbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153857332847-lc6vafcv2tgcdp55knd2ivv483bon62j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8PmMiLO4l4Yw-yFfNbVlOVw7xnShieWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153857332847-lc6vafcv2tgcdp55knd2ivv483bon62j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
